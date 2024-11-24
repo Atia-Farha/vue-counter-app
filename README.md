@@ -2,7 +2,7 @@
 
 A simple and minimalistic counter web app with keyboard shortcuts and local storage support made with Vue.js. Perfect for counting events, tracking activities and more.
 
-This is just the Vue version of <a href="https://github.com/Atia-Farha/counter-app" target="_blank">counter-app Repository</a>.
+This is just the Vue version of <a href="https://github.com/Atia-Farha/counter-app" target="_blank">counter-app</a> Repository.
 
 ## Table of Contents
 
