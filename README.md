@@ -17,16 +17,13 @@ This is just the Vue version of <a href="https://github.com/Atia-Farha/counter-a
 ## Project Structure
 
 ```plaintext
-counter-app/               # Root directory
+vue-counter-app/          # Root directory
 ├── index.html            # Main HTML file
 ├── src/                  # Source code directory
 │   ├── css/              # Directory for stylesheets
 │   │   └── style.css     # Main CSS file for styling
 │   └── js/               # Directory for JavaScript files
-│       └── script.js     # Core JavaScript file
-├── assets/               # Directory for static assets
-│   ├── favicon.png       # Favicon image
-│   └── preview.png       # Preview image for the app
+│       └── app.js        # js file for Vue
 ├── README.md             # Project documentation
 └── LICENSE               # License file
 ```
