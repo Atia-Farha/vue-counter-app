@@ -1,4 +1,4 @@
-# Counter Web App
+# Counter Web App with Vue.js
 
 A simple and minimalistic counter web app with keyboard shortcuts and local storage support made with Vue.js. Perfect for counting events, tracking activities and more.
 
