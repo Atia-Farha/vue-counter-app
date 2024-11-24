@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Counter App</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script src="./src/js/app.js" defer></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://atugatran.github.io/FontAwesome6Pro/css/all.min.css">
+</head>
+
+<body id="app">
+  <h1>Counter Web App</h1>
+
+  <main>
+    <button @click="decrement" aria-label="Decrease counter">
+      <i class="fa-duotone fa-solid fa-square-minus fa-4x"
+        style="--fa-primary-color: #a953e1; --fa-secondary-color: #a953e1;"></i>
+    </button>
+    <div class="counterValue">{{ count }}</div>
+    <button @click="increment" aria-label="Increase counter">
+      <i class="fa-duotone fa-solid fa-square-plus fa-4x"
+        style="--fa-primary-color: #a953e1; --fa-secondary-color: #a953e1; --fa-secondary-opacity: 0.4;"></i>
+    </button>
+  </main>
+  <button class="resetBtn" @click="reset" v-if="count !== 0" aria-label="Reset counter">
+    <i class="fa-duotone fa-solid fa-arrow-rotate-right fa-3x"
+      style="--fa-primary-color: #ff0000; --fa-secondary-color: #ff0000;"></i>
+  </button>
+
+  <div class="notification" :class="{ active: notification }">{{ notification }}</div>
+</body>
+
+</html>
