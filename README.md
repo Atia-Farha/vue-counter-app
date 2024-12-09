@@ -64,7 +64,7 @@ vue-counter-app/          # Root directory
 
 ## Reporting Issues
 
-If you encounter any bugs or have suggestions for improvement, please report them in the 'Issues' section of the GitHub repository. I will address them promptly.
+If you encounter any bugs or have suggestions for improvement, please report them in the <a href="https://github.com/Atia-Farha/vue-counter-app/issues" target="_blank">Issues</a> section of this GitHub repository. I will address them promptly.
 
 
 <p align="center">© Designed and developed by Atia Farha | ALL RIGHTS RESERVED</p>
