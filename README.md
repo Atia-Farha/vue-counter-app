@@ -52,7 +52,7 @@ vue-counter-app/          # Root directory
 4. Use the Reset button reset the counter. (visible and work only when the counter is greater than 0)
 5. The counter value will persist across browser sessions.
 
-*Ensure that you already have an installed web browser (Chrome, Firefox, etc.) on your device.
+> Ensure that you already have an installed web browser (Chrome, Firefox, etc.) on your device.
 
 ## Keyboard Shortcuts for Buttons
 
